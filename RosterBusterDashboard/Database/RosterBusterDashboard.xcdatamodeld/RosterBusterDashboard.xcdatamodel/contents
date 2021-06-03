@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Story" representedClassName="Story" syncable="YES" codeGenerationType="class">
+        <attribute name="aircraftType" optional="YES" attributeType="String"/>
+        <attribute name="captain" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="departure" optional="YES" attributeType="String"/>
+        <attribute name="destination" optional="YES" attributeType="String"/>
+        <attribute name="dutyCode" optional="YES" attributeType="String"/>
+        <attribute name="dutyID" optional="YES" attributeType="String"/>
+        <attribute name="firstOfficer" optional="YES" attributeType="String"/>
+        <attribute name="flightAttendant" optional="YES" attributeType="String"/>
+        <attribute name="flightnr" optional="YES" attributeType="String"/>
+        <attribute name="tail" optional="YES" attributeType="String"/>
+        <attribute name="timeArrive" optional="YES" attributeType="String"/>
+        <attribute name="timeDepart" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Story" positionX="-63" positionY="-18" width="128" height="224"/>
+    </elements>
+</model>

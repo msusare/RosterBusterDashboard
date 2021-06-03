@@ -7,25 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4673DD7265F8E1F00AA1A50 /* RosterStoryTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4673DD6265F8E1F00AA1A50 /* RosterStoryTableViewModel.swift */; };
 		F499FD94265E75D1008963B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499FD93265E75D1008963B2 /* AppDelegate.swift */; };
 		F499FD96265E75D1008963B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499FD95265E75D1008963B2 /* SceneDelegate.swift */; };
-		F499FD98265E75D1008963B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499FD97265E75D1008963B2 /* ViewController.swift */; };
+		F499FD98265E75D1008963B2 /* RosterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499FD97265E75D1008963B2 /* RosterListViewController.swift */; };
 		F499FD9B265E75D1008963B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F499FD99265E75D1008963B2 /* Main.storyboard */; };
 		F499FD9E265E75D1008963B2 /* RosterBusterDashboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F499FD9C265E75D1008963B2 /* RosterBusterDashboard.xcdatamodeld */; };
 		F499FDA0265E75D5008963B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F499FD9F265E75D5008963B2 /* Assets.xcassets */; };
 		F499FDA3265E75D5008963B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F499FDA1265E75D5008963B2 /* LaunchScreen.storyboard */; };
+		F499FDAC265E8234008963B2 /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F499FDAB265E8234008963B2 /* fa-solid-900.ttf */; };
+		F499FDAF265EAA8A008963B2 /* RosterStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499FDAE265EAA89008963B2 /* RosterStory.swift */; };
+		F499FDB2265EAD7B008963B2 /* RosterStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499FDB1265EAD7B008963B2 /* RosterStoryTableViewCell.swift */; };
+		F499FDB5265EAE9C008963B2 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499FDB4265EAE9C008963B2 /* FontAwesome.swift */; };
+		F4BB9F822660DE270066D232 /* RosterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB9F812660DE270066D232 /* RosterDetailsViewController.swift */; };
+		F4E6BFC22662AF3100B64F11 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E6BFC12662AF3100B64F11 /* Configuration.swift */; };
+		F4E6BFC72662B08D00B64F11 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E6BFC62662B08D00B64F11 /* DatabaseManager.swift */; };
+		F4E6BFCA2662B09E00B64F11 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E6BFC92662B09E00B64F11 /* APIManager.swift */; };
+		F4E6BFD52662C2AD00B64F11 /* RosterBusterDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E6BFD42662C2AD00B64F11 /* RosterBusterDashboardTests.swift */; };
+		F4E6BFE52662C2CE00B64F11 /* RosterBusterDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E6BFE42662C2CE00B64F11 /* RosterBusterDashboardUITests.swift */; };
+		F4F903EA26637A4E006406B7 /* RosterDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F903E926637A4E006406B7 /* RosterDetailsTableViewCell.swift */; };
+		F4F903F22663E24E006406B7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F903F12663E24E006406B7 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F4E6BFD72662C2AD00B64F11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F499FD88265E75D1008963B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F499FD8F265E75D1008963B2;
+			remoteInfo = RosterBusterDashboard;
+		};
+		F4E6BFE72662C2CE00B64F11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F499FD88265E75D1008963B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F499FD8F265E75D1008963B2;
+			remoteInfo = RosterBusterDashboard;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F4673DD6265F8E1F00AA1A50 /* RosterStoryTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterStoryTableViewModel.swift; sourceTree = "<group>"; };
 		F499FD90265E75D1008963B2 /* RosterBusterDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RosterBusterDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F499FD93265E75D1008963B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F499FD95265E75D1008963B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F499FD97265E75D1008963B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F499FD97265E75D1008963B2 /* RosterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterListViewController.swift; sourceTree = "<group>"; };
 		F499FD9A265E75D1008963B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F499FD9D265E75D1008963B2 /* RosterBusterDashboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RosterBusterDashboard.xcdatamodel; sourceTree = "<group>"; };
 		F499FD9F265E75D5008963B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F499FDA2265E75D5008963B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F499FDA4265E75D5008963B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F499FDAB265E8234008963B2 /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
+		F499FDAE265EAA89008963B2 /* RosterStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterStory.swift; sourceTree = "<group>"; };
+		F499FDB1265EAD7B008963B2 /* RosterStoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterStoryTableViewCell.swift; sourceTree = "<group>"; };
+		F499FDB4265EAE9C008963B2 /* FontAwesome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		F4BB9F812660DE270066D232 /* RosterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterDetailsViewController.swift; sourceTree = "<group>"; };
+		F4E6BFC12662AF3100B64F11 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		F4E6BFC62662B08D00B64F11 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		F4E6BFC92662B09E00B64F11 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		F4E6BFD22662C2AD00B64F11 /* RosterBusterDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RosterBusterDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E6BFD42662C2AD00B64F11 /* RosterBusterDashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterBusterDashboardTests.swift; sourceTree = "<group>"; };
+		F4E6BFD62662C2AD00B64F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E6BFE22662C2CE00B64F11 /* RosterBusterDashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RosterBusterDashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E6BFE42662C2CE00B64F11 /* RosterBusterDashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterBusterDashboardUITests.swift; sourceTree = "<group>"; };
+		F4E6BFE62662C2CE00B64F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F903E926637A4E006406B7 /* RosterDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F4F903F12663E24E006406B7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,13 +83,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4E6BFCF2662C2AD00B64F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E6BFDF2662C2CE00B64F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4673DD3265F8DC600AA1A50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F499FD97265E75D1008963B2 /* RosterListViewController.swift */,
+				F499FDB1265EAD7B008963B2 /* RosterStoryTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4673DD4265F8DCE00AA1A50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4673DD6265F8E1F00AA1A50 /* RosterStoryTableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F4673DD5265F8DDD00AA1A50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F499FDAE265EAA89008963B2 /* RosterStory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F499FD87265E75D1008963B2 = {
 			isa = PBXGroup;
 			children = (
 				F499FD92265E75D1008963B2 /* RosterBusterDashboard */,
+				F4E6BFD32662C2AD00B64F11 /* RosterBusterDashboardTests */,
+				F4E6BFE32662C2CE00B64F11 /* RosterBusterDashboardUITests */,
 				F499FD91265E75D1008963B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				F499FD90265E75D1008963B2 /* RosterBusterDashboard.app */,
+				F4E6BFD22662C2AD00B64F11 /* RosterBusterDashboardTests.xctest */,
+				F4E6BFE22662C2CE00B64F11 /* RosterBusterDashboardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +148,140 @@
 		F499FD92265E75D1008963B2 /* RosterBusterDashboard */ = {
 			isa = PBXGroup;
 			children = (
-				F499FD93265E75D1008963B2 /* AppDelegate.swift */,
-				F499FD95265E75D1008963B2 /* SceneDelegate.swift */,
-				F499FD97265E75D1008963B2 /* ViewController.swift */,
-				F499FD99265E75D1008963B2 /* Main.storyboard */,
+				F4E6BFC02662AF1B00B64F11 /* Configuration */,
+				F4E6BFBF2662AF1100B64F11 /* Network */,
+				F4E6BFBE2662AF0700B64F11 /* Database */,
+				F4E6BFBC2662AED000B64F11 /* Storyboards */,
+				F4E6BFB82662AE3E00B64F11 /* Common */,
+				F4E6BFB72662AE2D00B64F11 /* App Delegate */,
+				F4E6BFAE26628BEA00B64F11 /* View Controllers */,
 				F499FD9F265E75D5008963B2 /* Assets.xcassets */,
-				F499FDA1265E75D5008963B2 /* LaunchScreen.storyboard */,
 				F499FDA4265E75D5008963B2 /* Info.plist */,
-				F499FD9C265E75D1008963B2 /* RosterBusterDashboard.xcdatamodeld */,
 			);
 			path = RosterBusterDashboard;
+			sourceTree = "<group>";
+		};
+		F4BB9F7F2660DDDD0066D232 /* RosterList */ = {
+			isa = PBXGroup;
+			children = (
+				F4673DD5265F8DDD00AA1A50 /* Models */,
+				F4673DD4265F8DCE00AA1A50 /* ViewModel */,
+				F4673DD3265F8DC600AA1A50 /* View */,
+			);
+			path = RosterList;
+			sourceTree = "<group>";
+		};
+		F4BB9F802660DE000066D232 /* RosterDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB9F862660DE340066D232 /* ViewModel */,
+				F4BB9F842660DE2E0066D232 /* View */,
+			);
+			path = RosterDetails;
+			sourceTree = "<group>";
+		};
+		F4BB9F842660DE2E0066D232 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB9F812660DE270066D232 /* RosterDetailsViewController.swift */,
+				F4F903E926637A4E006406B7 /* RosterDetailsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4BB9F862660DE340066D232 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F4E6BFAE26628BEA00B64F11 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB9F7F2660DDDD0066D232 /* RosterList */,
+				F4BB9F802660DE000066D232 /* RosterDetails */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F4E6BFB72662AE2D00B64F11 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F499FD95265E75D1008963B2 /* SceneDelegate.swift */,
+				F499FD93265E75D1008963B2 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		F4E6BFB82662AE3E00B64F11 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6BFBD2662AEF200B64F11 /* Font */,
+				F4F903F12663E24E006406B7 /* Extension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4E6BFBC2662AED000B64F11 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F499FD99265E75D1008963B2 /* Main.storyboard */,
+				F499FDA1265E75D5008963B2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F4E6BFBD2662AEF200B64F11 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F499FDB4265EAE9C008963B2 /* FontAwesome.swift */,
+				F499FDAB265E8234008963B2 /* fa-solid-900.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F4E6BFBE2662AF0700B64F11 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F499FD9C265E75D1008963B2 /* RosterBusterDashboard.xcdatamodeld */,
+				F4E6BFC62662B08D00B64F11 /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		F4E6BFBF2662AF1100B64F11 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6BFC92662B09E00B64F11 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F4E6BFC02662AF1B00B64F11 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6BFC12662AF3100B64F11 /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		F4E6BFD32662C2AD00B64F11 /* RosterBusterDashboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6BFD42662C2AD00B64F11 /* RosterBusterDashboardTests.swift */,
+				F4E6BFD62662C2AD00B64F11 /* Info.plist */,
+			);
+			path = RosterBusterDashboardTests;
+			sourceTree = "<group>";
+		};
+		F4E6BFE32662C2CE00B64F11 /* RosterBusterDashboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6BFE42662C2CE00B64F11 /* RosterBusterDashboardUITests.swift */,
+				F4E6BFE62662C2CE00B64F11 /* Info.plist */,
+			);
+			path = RosterBusterDashboardUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +304,42 @@
 			productReference = F499FD90265E75D1008963B2 /* RosterBusterDashboard.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F4E6BFD12662C2AD00B64F11 /* RosterBusterDashboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E6BFD92662C2AD00B64F11 /* Build configuration list for PBXNativeTarget "RosterBusterDashboardTests" */;
+			buildPhases = (
+				F4E6BFCE2662C2AD00B64F11 /* Sources */,
+				F4E6BFCF2662C2AD00B64F11 /* Frameworks */,
+				F4E6BFD02662C2AD00B64F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E6BFD82662C2AD00B64F11 /* PBXTargetDependency */,
+			);
+			name = RosterBusterDashboardTests;
+			productName = RosterBusterDashboardTests;
+			productReference = F4E6BFD22662C2AD00B64F11 /* RosterBusterDashboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4E6BFE12662C2CE00B64F11 /* RosterBusterDashboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E6BFE92662C2CE00B64F11 /* Build configuration list for PBXNativeTarget "RosterBusterDashboardUITests" */;
+			buildPhases = (
+				F4E6BFDE2662C2CE00B64F11 /* Sources */,
+				F4E6BFDF2662C2CE00B64F11 /* Frameworks */,
+				F4E6BFE02662C2CE00B64F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E6BFE82662C2CE00B64F11 /* PBXTargetDependency */,
+			);
+			name = RosterBusterDashboardUITests;
+			productName = RosterBusterDashboardUITests;
+			productReference = F4E6BFE22662C2CE00B64F11 /* RosterBusterDashboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +351,14 @@
 				TargetAttributes = {
 					F499FD8F265E75D1008963B2 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					F4E6BFD12662C2AD00B64F11 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F499FD8F265E75D1008963B2;
+					};
+					F4E6BFE12662C2CE00B64F11 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F499FD8F265E75D1008963B2;
 					};
 				};
 			};
@@ -118,6 +376,8 @@
 			projectRoot = "";
 			targets = (
 				F499FD8F265E75D1008963B2 /* RosterBusterDashboard */,
+				F4E6BFD12662C2AD00B64F11 /* RosterBusterDashboardTests */,
+				F4E6BFE12662C2CE00B64F11 /* RosterBusterDashboardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,8 +388,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F499FDA3265E75D5008963B2 /* LaunchScreen.storyboard in Resources */,
+				F499FDAC265E8234008963B2 /* fa-solid-900.ttf in Resources */,
 				F499FDA0265E75D5008963B2 /* Assets.xcassets in Resources */,
 				F499FD9B265E75D1008963B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E6BFD02662C2AD00B64F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E6BFE02662C2CE00B64F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,14 +415,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F499FD98265E75D1008963B2 /* ViewController.swift in Sources */,
+				F4E6BFCA2662B09E00B64F11 /* APIManager.swift in Sources */,
+				F499FD98265E75D1008963B2 /* RosterListViewController.swift in Sources */,
+				F4E6BFC72662B08D00B64F11 /* DatabaseManager.swift in Sources */,
+				F4673DD7265F8E1F00AA1A50 /* RosterStoryTableViewModel.swift in Sources */,
+				F499FDAF265EAA8A008963B2 /* RosterStory.swift in Sources */,
+				F4BB9F822660DE270066D232 /* RosterDetailsViewController.swift in Sources */,
+				F499FDB2265EAD7B008963B2 /* RosterStoryTableViewCell.swift in Sources */,
 				F499FD94265E75D1008963B2 /* AppDelegate.swift in Sources */,
+				F4E6BFC22662AF3100B64F11 /* Configuration.swift in Sources */,
+				F4F903F22663E24E006406B7 /* Extension.swift in Sources */,
 				F499FD9E265E75D1008963B2 /* RosterBusterDashboard.xcdatamodeld in Sources */,
+				F499FDB5265EAE9C008963B2 /* FontAwesome.swift in Sources */,
+				F4F903EA26637A4E006406B7 /* RosterDetailsTableViewCell.swift in Sources */,
 				F499FD96265E75D1008963B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4E6BFCE2662C2AD00B64F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E6BFD52662C2AD00B64F11 /* RosterBusterDashboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E6BFDE2662C2CE00B64F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E6BFE52662C2CE00B64F11 /* RosterBusterDashboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E6BFD82662C2AD00B64F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F499FD8F265E75D1008963B2 /* RosterBusterDashboard */;
+			targetProxy = F4E6BFD72662C2AD00B64F11 /* PBXContainerItemProxy */;
+		};
+		F4E6BFE82662C2CE00B64F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F499FD8F265E75D1008963B2 /* RosterBusterDashboard */;
+			targetProxy = F4E6BFE72662C2CE00B64F11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F499FD99265E75D1008963B2 /* Main.storyboard */ = {
@@ -220,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,13 +607,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U5M5YX2ACY;
 				INFOPLIST_FILE = RosterBusterDashboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rbgroup.aero.mobile.RosterBusterDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,14 +627,97 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U5M5YX2ACY;
 				INFOPLIST_FILE = RosterBusterDashboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rbgroup.aero.mobile.RosterBusterDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4E6BFDA2662C2AD00B64F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5M5YX2ACY;
+				INFOPLIST_FILE = RosterBusterDashboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rbgroup.aero.mobile.RosterBusterDashboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RosterBusterDashboard.app/RosterBusterDashboard";
+			};
+			name = Debug;
+		};
+		F4E6BFDB2662C2AD00B64F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5M5YX2ACY;
+				INFOPLIST_FILE = RosterBusterDashboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rbgroup.aero.mobile.RosterBusterDashboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RosterBusterDashboard.app/RosterBusterDashboard";
+			};
+			name = Release;
+		};
+		F4E6BFEA2662C2CE00B64F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5M5YX2ACY;
+				INFOPLIST_FILE = RosterBusterDashboardUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rbgroup.aero.mobile.RosterBusterDashboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RosterBusterDashboard;
+			};
+			name = Debug;
+		};
+		F4E6BFEB2662C2CE00B64F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5M5YX2ACY;
+				INFOPLIST_FILE = RosterBusterDashboardUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rbgroup.aero.mobile.RosterBusterDashboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RosterBusterDashboard;
 			};
 			name = Release;
 		};
@@ -340,6 +738,24 @@
 			buildConfigurations = (
 				F499FDA8265E75D6008963B2 /* Debug */,
 				F499FDA9265E75D6008963B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E6BFD92662C2AD00B64F11 /* Build configuration list for PBXNativeTarget "RosterBusterDashboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E6BFDA2662C2AD00B64F11 /* Debug */,
+				F4E6BFDB2662C2AD00B64F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E6BFE92662C2CE00B64F11 /* Build configuration list for PBXNativeTarget "RosterBusterDashboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E6BFEA2662C2CE00B64F11 /* Debug */,
+				F4E6BFEB2662C2CE00B64F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
